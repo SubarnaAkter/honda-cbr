@@ -1,0 +1,23 @@
+.top-background-info{
+    background-color:  #264653;
+}
+
+.buy-now{
+    background-image: linear-gradient(to bottom, #E76F51 , #f78f76 );
+    padding:8px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+.para-fontSize{
+    font-size: 14px;
+}
+.featured-gray-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.tcolor-info{
+   
+    color: #E76F51;
+}
