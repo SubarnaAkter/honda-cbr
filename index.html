@@ -27,13 +27,13 @@
                     <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link  text-white " href="#">Shop</a>
+                    <a class="nav-link  text-white " href="#shop">Shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  text-white" href="#">News</a>
+                    <a class="nav-link  text-white" href="#FAQ">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  text-white" href="#">Contact</a>
+                    <a class="nav-link  text-white" href="#Contact">Contact</a>
                   </li>
                  
                  
@@ -94,7 +94,7 @@
     </header>
     <main>
         <!-- Featured bike section start -->
-        <section class="container">
+        <section class="container" id="shop">
             
             <h1 class="text-uppercase fs-1  fw-bold   text-center mt-5">Featured Bikes 2021</h1>
             <p class="text-center para-fontSize tcolor-info  pb-5 ">Best bike collection</p>
@@ -190,7 +190,7 @@
         </section>
 
          <!-- FAQ section start -->
-        <section class="container">
+        <section class="container" id="FAQ">
           <h1 class="text-center  fw-bold">Frequently Asked <span class="tcolor-info"> Questions</span> </h1>
          
             <div class="row my-5 align-items-center">
@@ -199,16 +199,16 @@
               </div>
               <div class="col-12 col-lg-6 col-md-6">
               
-                <div class="accordion" id="accordionExample">
+                <div class="accordion " id="accordionExample">
                   <div class="accordion-item my-4">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         What are the most important things I should
 
                         know about riding a bike?
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p>Safety First! Always obey the rules of the road. Obey all traffic
                           signals, signs, and laws. Get in the mindset of “driving” your
@@ -227,7 +227,10 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        Safety First! Always obey the rules of the road. Obey all traffic
+                        signals, signs, and laws. Get in the mindset of “driving” your
+                        bike—not just “riding” your bike. This will help you be a more
+                        focused and legally compliant bike rider.
                       </div>
                     </div>
                   </div>
@@ -239,7 +242,10 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        Safety First! Always obey the rules of the road. Obey all traffic
+                          signals, signs, and laws. Get in the mindset of “driving” your
+                          bike—not just “riding” your bike. This will help you be a more
+                          focused and legally compliant bike rider.
                       </div>
                     </div>
                   </div>
@@ -251,7 +257,10 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        Safety First! Always obey the rules of the road. Obey all traffic
+                          signals, signs, and laws. Get in the mindset of “driving” your
+                          bike—not just “riding” your bike. This will help you be a more
+                          focused and legally compliant bike rider.
                       </div>
                     </div>
                   </div>
@@ -262,7 +271,7 @@
                
              
          <!-- carousel section start     -->
-         
+        
         </section>
         <section class="container w-75 my-5 ">
           <h1 class="text-center  fw-bold">Featured<span class="tcolor-info"> Model</span> </h1>
@@ -315,7 +324,7 @@
                   <h1 class="tcolor-info">Honda-Wing Orange</h1>
                   <h5 class="lh-lg">Check Out the Newest NC750E Orange Features</h5>
                   <p>The Honda- NC750E Orange has built its reputation on powerful. With all the performance of a manual transmission and the convenience of an automatic, you’ll stay connected to your machine, and free to experience the world around you </p>
-                  <button class="btn btn-lg buy-now px-5 mb-3 " type="submit">Discover</button>
+                  <button class="btn btn-lg buy-now px-5 mb-3 " type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title="Click me">Discover</button>
                 </div>
                 <div class="col-12 col-lg-6 p-0 bg-secondary border border-secondary order-lg-2 order-1">
                   <img src="images/bike-4.jpg" alt="" width="100%">
@@ -329,7 +338,7 @@
                   <h1 class="tcolor-info">Honda- NC750E Black</h1>
                   <h5 class="lh-lg">Check Out the Newest NC750E Black Features</h5>
                   <p>The Honda- NC750E Black has built its reputation on powerful.  With all the performance of a manual transmission and the convenience of an automatic, you’ll stay connected to your machine, and free to experience the world around you. </p>
-                  <button class="btn btn-lg buy-now px-5 mb-3" type="submit">Discover</button>
+                  <button class="btn btn-lg buy-now px-5 mb-3" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title="Click me">Discover</button>
               </div>
               </div>
               
@@ -338,7 +347,7 @@
                 <h1 class="tcolor-info">Honda- GROM</h1>
                 <h5 class="lh-lg">Check Out the Newest Honda- GROM Features</h5>
                 <p>The Honda- GROM has built its reputation on powerful.  With all the performance of a manual transmission and the convenience of an automatic, you’ll stay connected to your machine, and free to experience the world around you. </p>
-                <button class="btn btn-lg buy-now px-5 mb-3" type="submit">Discover</button>
+                <button class="btn btn-lg buy-now px-5 mb-3" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title="Click me">Discover</button>
 
             </div>
             <div class="col-12 col-lg-6 p-0 bg-secondary border border-secondary  order-lg-2 order-1"> 
@@ -354,7 +363,7 @@
                 <h1 class="tcolor-info">Honda- Gray wing</h1>
                 <h5 class="lh-lg">Check Out the Newest Honda- Gray wing Features</h5>
                 <p>The Honda- Gray wing has built its reputation on powerful.  With all the performance of a manual transmission and the convenience of an automatic, you’ll stay connected to your machine, and free to experience the world around you. </p>
-                <button class="btn btn-lg buy-now px-5 mb-3" type="submit">Discover</button>
+                <button class="btn btn-lg buy-now px-5 mb-3" type="submit"  data-bs-toggle="tooltip" data-bs-placement="right" title="Click me">Discover</button>
             </div>
             </div>
           
@@ -362,12 +371,60 @@
           </div>
            
         </section>
-       
+        <!-- sign up section start  -->
+        <section class="container-fluid my-5" id="Contact">
+          <div class="accordion accordion-flush" id="accordionFlushExample" >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed  sign-up-btn text-white m-0 p-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            
+                 Sign Up to get  the latest update
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="validationDefault01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationDefault02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationDefaultUsername" class="form-label">Email</label>
+                      <div class="input-group">
+                        
+                        <input type="Email" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="Email" required>
+                      </div>
+                    </div>
+                   
+                   
+                    <div class="col-md-6">
+                      <label for="validationDefault05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationDefault05" required>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn buy-now" type="submit">Sign Up</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
-    <footer>
-       <section class="container-fluid">
-
-       </section>
+    <footer class="mt-5">
+      <p class="text-center">&copy  2021  All rights reserved by Honda Cbr Co.</p>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
